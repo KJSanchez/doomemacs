@@ -47,6 +47,8 @@
 ;;
 ;;; Bootstrap
 
+(setq initial-frame-alist '((top . 1) (left . 1) (width . 160) (height . 55)))
+
 (or
  ;; PERF: `file-name-handler-alist' is consulted often. Unsetting it offers a
  ;;   notable saving in startup time. This is just a stopgap though; this
